@@ -1,0 +1,83 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: #000;
+  color: #fff;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.home {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  padding: 2rem;
+  box-sizing: border-box;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 1.75rem;
+}
+
+.logo {
+  margin-bottom: 0.5rem;
+}
+
+.content h1 {
+  font-size: 3rem;
+  font-weight: 800;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.links {
+  display: flex;
+  gap: 1rem;
+}
+
+.links a {
+  padding: 0.7rem 1.4rem;
+  border-radius: 6px;
+  font-size: 0.95rem;
+  text-decoration: none;
+  border: 1px solid #fff;
+}
+
+.links a.admin {
+  background: #fff;
+  color: #000;
+}
+
+.links a.docs {
+  background: transparent;
+  color: #fff;
+}
+
+.footer {
+  position: fixed;
+  bottom: 2rem;
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  font-size: 0.9rem;
+  color: #ccc;
+}
+
+.codeLink {
+  text-decoration: none;
+}
+
+.codeLink code {
+  background: #1a1a1a;
+  color: #fff;
+  padding: 0.35rem 0.6rem;
+  border-radius: 4px;
+  font-family: 'JetBrains Mono', monospace;
+  font-size: 0.85rem;
+}

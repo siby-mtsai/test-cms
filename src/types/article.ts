@@ -1,0 +1,1 @@
+export type { Article, Media } from '@/payload-types'
